@@ -12,5 +12,9 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey",
 
 print(states_of_america)
 
+states_of_america.append("kadir")
+states_of_america.extend(["a","b"])
+
+print(states_of_america)
 
 dirty_dozen = ["Strawberries", "Spinach", "Kale", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears", "Tomatoes", "Celery", "Potatoes"]
